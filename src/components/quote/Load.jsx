@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Load = ({ onClick }) => (
   <div>
-    <button onClick={onClick}>LOAD</button>
+    <button onClick={onClick}>GIMME A QUOTE</button>
   </div>
 );
 
