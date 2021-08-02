@@ -1,0 +1,14 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const Load = ({ onClick }) => (
+  <div>
+    <button onClick={onClick}>LOAD</button>
+  </div>
+);
+
+Load.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};
+
+export default Load;
